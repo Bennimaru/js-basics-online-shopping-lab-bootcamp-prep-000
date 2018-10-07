@@ -11,7 +11,9 @@ function setCart(c) {
 
 function addToCart(item) {
   var item = {}
+  item[itemName]=itemPrice
   cart.push(item)
+  return cart
  // write your code here
 }
 
